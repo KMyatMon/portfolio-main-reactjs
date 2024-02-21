@@ -3,7 +3,7 @@ import ibgroup from '/src/assets/images/odin-statch.png';
 import memento from '/src/assets/images/urdan.png';
 import acc from '/src/assets/images/orebi.png';
 import daddy from '/src/assets/images/godaddy-desktop.webp';
-import sunnyside from '/src/assets/images/sunny-side-square.webp';
+import sunnyside from '/src/assets/images/portfolio.png';
 
 const projectsData = [
   {
@@ -19,7 +19,7 @@ const projectsData = [
     link: 'https://kmyatmon.github.io/furniture_store/'
   },
   {
-    title: 'Orebi Fashion House Clone',
+    title: 'real business accountants',
     description: 'Web Design / Frontend Development',
     imageSrc: acc,
     link: 'https://realbusinessaccountants.netlify.app'
@@ -31,7 +31,7 @@ const projectsData = [
     link: 'https://godaddyuiclone.netlify.app'
   },
   {
-    title: 'Sunnyside Landing Page',
+    title: 'Sunny Side Challenge',
     description: 'Web Design / Frontend Development',
     imageSrc: sunnyside,
     link: 'https://sunnysidechallenge.netlify.app'
