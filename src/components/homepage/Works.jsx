@@ -1,7 +1,7 @@
 import ibgroup from '/src/assets/images/odin-statch.png';
 import memento from '/src/assets/images/urdan.png';
 // import acc from '/src/assets/images/orebi.png';
-import daddy from '/src/assets/images/port.png';
+import daddy from '/src/assets/images/portfolio.png';
 import sunnyside from '/src/assets/images/sale.png';
 import Projects from "../ui/Projects";
 import Heading from "../ui/Heading";
