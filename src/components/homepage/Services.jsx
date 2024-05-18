@@ -12,12 +12,11 @@ export default function Services() {
 
   const toolBoxItems = [
     "JavaScript",
-    "HTML",
-    "CSS",
+    "HTML, CSS",
+    "ReactJS, NextJS",
+    "PHP, Laravel",
     "Figma",
     "Webflow",
-    "TailwindCSS",
-    "ReactJS",
   ];
 
   return (

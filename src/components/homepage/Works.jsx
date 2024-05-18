@@ -1,8 +1,8 @@
 import ibgroup from '/src/assets/images/odin-statch.png';
 import memento from '/src/assets/images/urdan.png';
-import acc from '/src/assets/images/orebi.png';
-import daddy from '/src/assets/images/godaddy-desktop.webp';
-import sunnyside from '/src/assets/images/sunnyside-desktop.webp';
+// import acc from '/src/assets/images/orebi.png';
+import daddy from '/src/assets/images/port.png';
+import sunnyside from '/src/assets/images/sale.png';
 import Projects from "../ui/Projects";
 import Heading from "../ui/Heading";
  
@@ -24,7 +24,7 @@ export default function Works({ forwardedRef }) {
             name="Odin Etch Sketch Website"
             type="Web Design • Frontend Development"
             year="2023"
-            tools="HTML • TailwindCSS • JavaScript • Figma"
+            tools="HTML • TailwindCSS • JavaScript • CSS"
 
           />
         </div>
@@ -42,35 +42,35 @@ export default function Works({ forwardedRef }) {
         </div>
         <div className="col-span-1 pt-0 md:col-span-5 md:pt-80">
           <Projects
-            link="https://realbusinessaccountants.netlify.app"
-            img={acc}
-            alt="real business accountant project mockup"
-            name="real business accountants"
+            link="https://magenta-shortbread-3eeb76.netlify.app/"
+            img={daddy}
+            alt="Portfolio"
+            name="Portfolio"
             type="Web Design • Frontend Development"
             year="2023"
-            tools="HTML • CSS • JavaScript • Figma"
+            tools="HTML • CSS • JavaScript "
           />
         </div>
-        <div className="col-span-1 h-fit pt-0 md:col-span-8 md:pt-20">
+        {/* <div className="col-span-1 h-fit pt-0 md:col-span-8 md:pt-20">
           <Projects
             link="https://godaddyuiclone.netlify.app"
-            img={daddy}
+            img={acc}
             alt="godaddy clone page mockup"
             name="GODADDY LANDING PAGE CLONE"
             type="Frontend Development"
             year="2023"
             tools="HTML • TailwindCSS • JavaScript"
           />
-        </div>
+        </div> */}
         <div className="col-span-1 h-fit md:col-span-4">
         <Projects
-            link="https://sunnysidechallenge.netlify.app"
+            link="https://shopify-reactvite.vercel.app/"
             img={sunnyside}
             alt="sunnyside project mockup"
             name="SUNNYSIDE LANDING PAGE"
             type="Frontend Development"
             year="2022"
-            tools="HTML • TailwindCSS • JavaScript"
+            tools="HTML • CSS • TailwindCSS • JavaScript"
           />
          
         </div>
