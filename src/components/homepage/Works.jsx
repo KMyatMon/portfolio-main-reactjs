@@ -42,7 +42,7 @@ export default function Works({ forwardedRef }) {
         </div>
         <div className="col-span-1 pt-0 md:col-span-5 md:pt-80">
           <Projects
-            link="https://magenta-shortbread-3eeb76.netlify.app/"
+            link="https://kmyatmon.github.io/iportfolio-css-js/"
             img={daddy}
             alt="Portfolio"
             name="Portfolio"
