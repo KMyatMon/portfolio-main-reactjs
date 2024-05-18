@@ -1,6 +1,6 @@
 import ibgroup from '/src/assets/images/odin-statch.png';
 import memento from '/src/assets/images/urdan.png';
-// import acc from '/src/assets/images/orebi.png';
+import acc from '/src/assets/images/odin-rest.png';
 import daddy from '/src/assets/images/portfolio.png';
 import sunnyside from '/src/assets/images/sale.png';
 import Projects from "../ui/Projects";
@@ -51,17 +51,17 @@ export default function Works({ forwardedRef }) {
             tools="HTML • CSS • JavaScript "
           />
         </div>
-        {/* <div className="col-span-1 h-fit pt-0 md:col-span-8 md:pt-20">
+        <div className="col-span-1 h-fit pt-0 md:col-span-8 md:pt-20">
           <Projects
-            link="https://godaddyuiclone.netlify.app"
+            link="https://kmyatmon.github.io/Odin-RestaurantWebpack/"
             img={acc}
-            alt="godaddy clone page mockup"
-            name="GODADDY LANDING PAGE CLONE"
+            alt="Restaurant Page for ODIN project"
+            name="Restaurant Page for ODIN project"
             type="Frontend Development"
             year="2023"
-            tools="HTML • TailwindCSS • JavaScript"
+            tools="HTML • TailwindCSS • JavaScript • React "
           />
-        </div> */}
+        </div>
         <div className="col-span-1 h-fit md:col-span-4">
         <Projects
             link="https://shopify-reactvite.vercel.app/"
