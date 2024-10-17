@@ -1,5 +1,5 @@
 import ibgroup from '/src/assets/images/odin-statch.png';
-import memento from '/src/assets/images/urdan.png';
+// import memento from '/src/assets/images/urdan.png';
 import acc from '/src/assets/images/odin-rest.png';
 import daddy from '/src/assets/images/portfolio.png';
 import sunnyside from '/src/assets/images/sale.png';
@@ -16,7 +16,7 @@ export default function Works({ forwardedRef }) {
      <Heading title="Projects" />
       <div className="mt-10 grid grid-cols-1 gap-16 gap-y-10 md:grid-cols-12">
         {/* Project #1 */}
-        <div className=" col-span-1 md:col-span-12">
+        <div className=" col-span-1 md:col-span-6">
           <Projects
             link="https://github.com/KMyatMon/Odin_Etch-a-Sketch"
             img={ibgroup}
@@ -29,7 +29,7 @@ export default function Works({ forwardedRef }) {
           />
         </div>
         {/* Project #2 */}
-        <div className="col-span-1 pt-0 md:col-span-7 md:pt-16">
+        {/* <div className="col-span-1 pt-0 md:col-span-7 md:pt-16">
           <Projects
             link="https://kmyatmon.github.io/furniture_store/"
             img={memento}
@@ -39,7 +39,7 @@ export default function Works({ forwardedRef }) {
             year="2023"
             tools="HTML • TailwindCSS • JavaScript . React"
           />
-        </div>
+        </div> */}
         <div className="col-span-1 pt-0 md:col-span-5 md:pt-80">
           <Projects
             link="https://kmyatmon.github.io/iportfolio-css-js/"
@@ -63,16 +63,15 @@ export default function Works({ forwardedRef }) {
           />
         </div>
         <div className="col-span-1 h-fit md:col-span-4">
-        <Projects
-            link="https://shopify-reactvite.vercel.app/"
-            img={sunnyside}
-            alt="sunnyside project mockup"
-            name="SUNNYSIDE LANDING PAGE"
-            type="Frontend Development"
-            year="2022"
-            tools="HTML • CSS • TailwindCSS • JavaScript"
-          />
-         
+          <Projects
+              link="https://savant-eyewear.vercel.app"
+              img={sunnyside}
+              alt="Savant Eyewear project mockup"
+              name="Savant Eyewear LANDING PAGE"
+              type="Frontend Development"
+              year="2022"
+              tools="HTML • CSS • ReactJs • TailwindCSS • JavaScript"
+            />
         </div>
       </div>
     </section>

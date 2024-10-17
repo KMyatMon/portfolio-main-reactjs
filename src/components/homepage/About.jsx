@@ -57,8 +57,8 @@ export default function About() {
               A brief intro, who am I?
             </h3>
             <p ref={body} className=" translate-y-10 text-body-1 2xl:text-4xl opacity-0">
-              I am an independent frontend developer, UI/UX designer and creator based in
-              Mon State, Myanmar.
+              I am an independent frontend developer and creator based in
+              Mawlamyine, Mon State, Myanmar.
               <br></br>
               <br></br>I specialize in crafting elevated, intuitive, and
               minimalistic designs for startups and small businesses to help
