@@ -51,7 +51,7 @@ export default function Works({ forwardedRef }) {
             tools="HTML • CSS • JavaScript "
           />
         </div>
-        <div className="col-span-1 h-fit pt-0 md:col-span-8 md:pt-20">
+        <div className="col-span-1 h-fit pt-0 md:col-span-5 md:pt-20">
           <Projects
             link="https://kmyatmon.github.io/Odin-RestaurantWebpack/"
             img={acc}
@@ -62,7 +62,7 @@ export default function Works({ forwardedRef }) {
             tools="HTML • TailwindCSS • JavaScript • React "
           />
         </div>
-        <div className="col-span-1 h-fit md:col-span-4">
+        <div className="col-span-1 h-fit md:col-span-6">
           <Projects
               link="https://savant-eyewear.vercel.app"
               img={sunnyside}
