@@ -42,13 +42,13 @@ export default function Works({ forwardedRef }) {
         </div> */}
         <div className="col-span-1 pt-0 md:col-span-5 md:pt-80">
           <Projects
-            link="https://kmyatmon.github.io/iportfolio-css-js/"
+            link="https://bentofolio-thecodedose.vercel.app/"
             img={daddy}
             alt="Portfolio"
             name="Portfolio"
             type="Web Design • Frontend Development"
-            year="2023"
-            tools="HTML • CSS • JavaScript "
+            year="2024"
+            tools="HTML • CSS • JavaScript • NextJs • SVG"
           />
         </div>
         <div className="col-span-1 h-fit pt-0 md:col-span-5 md:pt-20">
