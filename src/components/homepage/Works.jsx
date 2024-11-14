@@ -1,6 +1,6 @@
 import ibgroup from '/src/assets/images/odin-statch.png';
 // import memento from '/src/assets/images/urdan.png';
-import acc from '/src/assets/images/odin-rest.png';
+import acc from '/src/assets/images/cv-odin.png';
 import daddy from '/src/assets/images/portfolio.png';
 import sunnyside from '/src/assets/images/sale.png';
 import Projects from "../ui/Projects";
@@ -53,10 +53,10 @@ export default function Works({ forwardedRef }) {
         </div>
         <div className="col-span-1 h-fit pt-0 md:col-span-5 md:pt-20">
           <Projects
-            link="https://kmyatmon.github.io/Odin-RestaurantWebpack/"
+            link="https://odin-react-4i2yvecj8-kmyatmons-projects.vercel.app/"
             img={acc}
-            alt="Restaurant Page for ODIN project"
-            name="Restaurant Page for ODIN project"
+            alt="Create cv Page for ODIN project"
+            name="Create cv Page for ODIN project"
             type="Frontend Development"
             year="2023"
             tools="HTML • TailwindCSS • JavaScript • React "
