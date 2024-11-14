@@ -40,7 +40,18 @@ export default function Works({ forwardedRef }) {
             tools="HTML • TailwindCSS • JavaScript . React"
           />
         </div> */}
-        <div className="col-span-1 pt-0 md:col-span-5 md:pt-80">
+        <div className="col-span-1 h-fit md:col-span-6">
+          <Projects
+              link="https://savant-eyewear.vercel.app"
+              img={sunnyside}
+              alt="Savant Eyewear project mockup"
+              name="Savant Eyewear LANDING PAGE"
+              type="Frontend Development"
+              year="2022"
+              tools="HTML • CSS • ReactJs • TailwindCSS • JavaScript"
+            />
+        </div>
+        <div className="col-span-1 pt-0 md:col-span-7 md:pt-16">
           <Projects
             link="https://bentofolio-thecodedose.vercel.app/"
             img={daddy}
@@ -62,17 +73,7 @@ export default function Works({ forwardedRef }) {
             tools="HTML • TailwindCSS • JavaScript • React "
           />
         </div>
-        <div className="col-span-1 h-fit md:col-span-6">
-          <Projects
-              link="https://savant-eyewear.vercel.app"
-              img={sunnyside}
-              alt="Savant Eyewear project mockup"
-              name="Savant Eyewear LANDING PAGE"
-              type="Frontend Development"
-              year="2022"
-              tools="HTML • CSS • ReactJs • TailwindCSS • JavaScript"
-            />
-        </div>
+        
       </div>
     </section>
   );

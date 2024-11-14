@@ -14,7 +14,7 @@ export default function Services() {
     "JavaScript",
     "HTML, CSS",
     "ReactJS, NextJS",
-    "PHP, Laravel",
+    "PHP, Laravel, NodeJs",
     "Figma",
     "Webflow",
   ];
