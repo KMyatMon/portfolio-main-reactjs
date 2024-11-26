@@ -76,7 +76,7 @@ export default function Works({ forwardedRef }) {
         </div>
         <div className="col-span-1 h-fit pt-0 md:col-span-5 md:pt-20">
           <Projects
-            link="#"
+            link="https://github.com/KMyatMon/MERN-shop"
             img={mernshop}
             alt="MERN-Shop"
             name="MERN-shop project"
