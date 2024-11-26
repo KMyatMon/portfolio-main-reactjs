@@ -1,6 +1,7 @@
 import ibgroup from '/src/assets/images/odin-statch.png';
 // import memento from '/src/assets/images/urdan.png';
 import acc from '/src/assets/images/cv-odin.png';
+import mernshop from '/src/assets/images/mern-shop.png';
 import daddy from '/src/assets/images/portfolio.png';
 import sunnyside from '/src/assets/images/sale.png';
 import Projects from "../ui/Projects";
@@ -73,7 +74,17 @@ export default function Works({ forwardedRef }) {
             tools="HTML • TailwindCSS • JavaScript • React "
           />
         </div>
-        
+        <div className="col-span-1 h-fit pt-0 md:col-span-5 md:pt-20">
+          <Projects
+            link="#"
+            img={mernshop}
+            alt="MERN-Shop"
+            name="MERN-shop project"
+            type="MERN Development"
+            year="2024"
+            tools="M E R N"
+          />
+        </div>
       </div>
     </section>
   );
