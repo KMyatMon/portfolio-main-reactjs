@@ -43,12 +43,12 @@ export default function Works({ forwardedRef }) {
         </div> */}
         <div className="col-span-1 h-fit md:col-span-6">
           <Projects
-              link="https://savant-eyewear.vercel.app"
+              link="https://eyewear-shop-main.vercel.app/"
               img={sunnyside}
               alt="Savant Eyewear project mockup"
               name="Savant Eyewear LANDING PAGE"
               type="Frontend Development"
-              year="2022"
+              year="2024"
               tools="HTML • CSS • ReactJs • TailwindCSS • JavaScript"
             />
         </div>
@@ -70,7 +70,7 @@ export default function Works({ forwardedRef }) {
             alt="Create cv Page for ODIN project"
             name="Create cv Page for ODIN project"
             type="Frontend Development"
-            year="2023"
+            year="2024"
             tools="HTML • TailwindCSS • JavaScript • React "
           />
         </div>
